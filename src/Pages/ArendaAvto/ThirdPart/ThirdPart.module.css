@@ -1,0 +1,420 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.container {
+    max-width: 62.5%;
+    margin: 0 auto;
+}
+
+.successful {
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+    display: flex;
+    padding: 40px 45px 45px 25px;
+    justify-content: space-between;
+    margin-bottom: 86px;
+}
+
+.in_successful {
+    flex: 0 0 50%;
+    display: flex;
+}
+
+.in_successful img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 20px;
+}
+
+.in_successful h2 {
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    /* 225% */
+}
+
+.in_successful p {
+    color: #242321;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+/* ===================== */
+
+.calculate {
+    display: flex;
+    margin-bottom: 95px;
+}
+
+.in_calculate {
+    width: 50%;
+}
+
+.in_calculate h2 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    /* 133.333% */
+}
+
+.in_calculate h3 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 80%;
+    /* 166.667% */
+    margin-bottom: 70px;
+}
+
+.in_calculate h3 span {
+    color: #0088CF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.in_calculate button {
+    width: 45%;
+    height: 56px;
+    border-radius: 5px;
+    background: #55a5cf;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 0.8px;
+}
+
+.in_calculate button:hover {
+    background: #0088CF;
+}
+
+/* ======================= */
+
+.payments {
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+    padding: 29px 200px 47px 24px;
+}
+
+.payments div {
+    display: flex;
+    align-items: center;
+}
+
+.payments div h2 {
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    /* 225% */
+    margin-left: 15px;
+}
+
+.payments p {
+    color: #242321;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 15px;
+    /* 157.143% */
+}
+
+/* ==================== */
+.mob_phone {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.in_div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.in_div img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.in_div h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+}
+
+.mob_phone p {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 48%;
+}
+
+.mob_phone p span {
+    color: #0088CF;
+}
+
+/* ================ */
+.payments_down {
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+    padding: 39px 46px 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.pay_down_in {
+    width: 55%;
+    display: flex;
+}
+
+.pay_down_in img,
+.pay_down_down img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.pay_down_down {
+    width: 43%;
+    display: flex;
+
+}
+
+.pay_down_in h2,
+.pay_down_down h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.pay_down_in p,
+.pay_down_down p {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* =================== */
+
+.team h2 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 22px;
+}
+
+.team p {
+    color: #242321;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 70%;
+    margin-bottom: 25px;
+
+}
+
+.team h3 {
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+}
+
+.card {
+    flex: 0 0 27%;
+
+
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 35px 0 6px 0;
+}
+
+.card h3 {
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: -0.32px;
+}
+
+/* ===================== */
+.connection {
+    margin-top: 94px;
+    background-color: #F5F5F9;
+}
+
+.connection_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connection_left {
+    width: 48%;
+}
+
+.connection_left h2 {
+    padding-top: 54px;
+    width: 464px;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h2 span {
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h3 {
+    padding-top: 29px;
+    font-family: Gilroy;
+    width: 364px;
+    color: #242321;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.connection_left h3 span {
+    color: #242321;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.connection_left h4 {
+    padding-top: 11px;
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+
+.connection_right {
+    width: 48%;
+    padding-top: 70px;
+}
+
+.connection_right input {
+    width: 100%;
+    height: 57px;
+    color: #242321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.connection_down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 61px;
+}
+
+.connection_down input {
+    width: 20px;
+    height: 20px;
+}
+
+.connection_down h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 38%;
+}
+
+.connection_down button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #242321;
+    width: 45%;
+}
+
+.connection_down button:hover {
+    color: #fff;
+    background: #0088CF;
+}

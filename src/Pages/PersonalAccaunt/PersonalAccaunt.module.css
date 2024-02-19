@@ -1,0 +1,36 @@
+.container{
+    height: 40vh;
+    width: 62.5%;
+    margin: 0 auto;
+}
+.color_block {
+    border-radius: 5px;
+background: #0088CF;
+height: 23vh;
+/* height: 182px; */
+/* width: 100%; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.color_text p {
+    color: #FFF;
+font-family: 'Gilroy',sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+width: 572px;
+}
+.color_text h1 {
+    color: #FFF;
+font-family: 'Gilroy',sans-serif;
+font-size: 20px;
+font-weight: 900;
+line-height: 34px; /* 170% */
+}
+.yellow_blocks {
+    border-radius: 5px;
+background: #FCEC4F;
+width: 157px;
+height: 43px;
+}

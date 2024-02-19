@@ -1,0 +1,25 @@
+.vacancy {
+	display: flex;
+	flex-direction: column;
+}
+
+.vacancy_title {
+	color: #989898;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	width: 62.5%;
+	margin: 26px auto 33px;
+}
+
+.vacancy_title span {
+	color: #989898;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration-line: underline;
+}

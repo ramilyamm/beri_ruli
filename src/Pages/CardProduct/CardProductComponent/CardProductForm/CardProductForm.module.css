@@ -1,0 +1,135 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.card_prod_form {
+	width: 62.5%;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: #f5f5f9;
+	padding: 82px 99px 85px 61px;
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.content_title {
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: 46px;
+	margin-bottom: 29px;
+	max-width: 464px;
+}
+
+.content_title span {
+	color: #0088cf;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 36px;
+	font-style: normal;
+
+	line-height: 46px;
+}
+
+.content_text {
+	max-width: 400px;
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 36px;
+	margin-bottom: 11px;
+}
+
+.content_text span {
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 36px;
+}
+
+.content_number {
+	color: #0088cf;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.form form {
+	display: flex;
+	flex-direction: column;
+	gap: 29px;
+}
+
+form input {
+	width: 520px;
+	height: 57px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	background: rgba(255, 255, 255, 0.62);
+	padding: 14px 0 17px 28px;
+}
+
+form input::placeholder {
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.8px;
+}
+
+.form_block {
+	display: flex;
+}
+
+.form_block input {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	border: 1px solid #c9c9c9;
+	margin-right: 17px;
+}
+
+.form_block label {
+	width: 200px;
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 24px;
+}
+
+.form_block button {
+	width: 233px;
+	height: 56px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #0088cf;
+
+	color: #fff;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.8px;
+}
+
+.content_block {
+	position: relative;
+	margin-bottom: 52px;
+}
+
+.content_block p {
+	position: absolute;
+	top: 25px;
+	left: 30px;
+}

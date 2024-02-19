@@ -1,0 +1,261 @@
+.container {
+    /* background-color: aqua; */
+    height: 40vh;
+    width: 62.5%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+.enter {
+    /* background-color: #686868; */
+    font-family: 'Gilroy', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.enter h1 {
+    color: #242321;
+    text-align: center;
+    width: 338px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.enter p {
+    color: #242321;
+    text-align: center;
+    /* font-family: Gilroy; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.enter form {
+    /* gap: 10px; */
+    /* background-color: black; */
+    /* margin: 0 auto; */
+
+}
+
+input {
+    display: flex;
+
+    margin: 0 auto;
+    /* background-color: grey; */
+    color: #686868;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    /* border: 1px; */
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    gap: 10px;
+
+
+    background: rgba(255, 255, 255, 0.62);
+
+}
+
+button {
+
+    align-items: center;
+    width: 30%;
+    background-color: #0088CF;
+
+    /* width: 362px; */
+    height: 56px;
+    border-radius: 5px;
+}
+
+/* .enter_blocks {
+    max-width: 100%;
+    background: #F5F5F9;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+} */
+
+/* .enter_pers {
+
+    height: 100vh;
+
+} */
+
+/* .enter_info_block {
+    flex: 0 1 80%;
+ 
+    width: 30%;
+
+} */
+
+.enter_blocks h2 {
+    color: #242321;
+
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+/* .enter_blocks h3 {
+    color: #0088CF;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+} */
+
+/* .enter_blocks a {
+    color: #0088CF;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 45px;
+} */
+
+/* .enter_blocks p {
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+} */
+
+.enter_info_block form {
+    /* flex: none; */
+}
+
+.enter_question {
+    /* display: flex; */
+    /* flex: 0 1 0%; */
+    width: 100%;
+
+}
+
+.connection {
+    margin-top: 94px;
+    background-color: #F5F5F9;
+    height: 60vh;
+}
+
+.connection_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connection_left {
+    width: 48%;
+}
+
+.connection_left h2 {
+    padding-top: 54px;
+    width: 464px;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h2 span {
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h3 {
+    padding-top: 29px;
+    font-family: Gilroy;
+    width: 364px;
+    color: #242321;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.connection_left h3 span {
+    color: #242321;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.connection_left h4 {
+    padding-top: 11px;
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+
+.connection_right {
+    width: 48%;
+    padding-top: 30px;
+}
+
+.connection_right input {
+    width: 100%;
+    height: 57px;
+    color: #242321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.connection_down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 61px;
+}
+
+.connection_down input {
+    width: 20px;
+    height: 20px;
+}
+
+.connection_down h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 38%;
+}
+
+.connection_down button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #242321;
+    width: 45%;
+}
+
+.connection_down button:hover {
+    color: #fff;
+    background: #0088CF;
+}

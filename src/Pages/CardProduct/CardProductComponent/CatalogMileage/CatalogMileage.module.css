@@ -1,0 +1,42 @@
+.catalog_mileage {
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	gap: 10px;
+}
+
+.catalog_mileage_title {
+	color: #242321;
+	font-family: Gilroy;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 45px;
+	margin-bottom: 33px;
+	width: 62.5%;
+	margin: 0 auto;
+	margin-bottom: 33px;
+}
+
+.card_pr_btn {
+	height: 56px;
+	background: #fff;
+
+	color: #242321;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0.8px;
+	width: 62.5%;
+	margin: 40px auto;
+	margin-bottom: 112px;
+	border: 2px solid #0088cf;
+	width: 184px;
+}
+
+.card_pr_btn:hover {
+	background: #0088cf;
+	color: #ffffff;
+}

@@ -1,0 +1,119 @@
+.container {
+    max-width: 62.5%;
+    margin: 0 auto;
+}
+
+.title_photo {
+    margin-top: 26px;
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.title_photo span {
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.news_block {
+    margin-top: 33px;
+    color: var(--black, #333);
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.news_block_btn {
+    margin: 39px 0 30px;
+}
+
+.news_video_btn {
+    margin-right: 22px;
+    width: 178px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background-color: #FFF;
+    color: #0088CF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.news_photo_btn {
+    width: 158px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #0088CF;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.watch_all {
+    text-align: right;
+    color: #242321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.infos_block {
+    display: flex;
+    gap: 45px;
+}
+
+.infos_block h2 {
+    color: #0088CF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.infos_block h3 {
+    color: #989898;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.photos {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo_card {
+    flex: 0 1 30%;
+    margin-bottom: 21px;
+}
+
+.pagination {
+    margin-bottom: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

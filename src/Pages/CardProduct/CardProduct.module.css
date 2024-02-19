@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.card_product {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.card_product_text span {
+	color: #989898;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 26px;
+	text-decoration-line: underline;
+}
+
+.card_product_text {
+	color: #989898;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 26px;
+	margin: 26px auto 52px;
+	width: 62.5%;
+}

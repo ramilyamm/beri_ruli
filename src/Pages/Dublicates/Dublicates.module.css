@@ -1,0 +1,729 @@
+.container {
+    max-width: 62.5%;
+    margin: 0 auto;
+}
+
+.title_duplicates {
+    margin: 26px 0;
+    color: #989898;
+    font-size: 14px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.title_duplicates span {
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.dublicates_block {
+    display: flex;
+    width: 1203px;
+    height: 175px;
+    flex-shrink: 0;
+    background: #0088CF;
+    border-radius: 5px;
+}
+
+.dublicates_top_right h2 {
+    padding-top: 34px;
+    margin-left: 40px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.dublicates_top_right h3 {
+    margin-top: 12px;
+    margin-left: 40px;
+    width: 500px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.dublicates_top_left {
+    margin-left: 146px;
+    margin-top: 40px;
+}
+
+.dublicates_find {
+    position: relative;
+}
+
+.dublicates_find img {
+    position: absolute;
+    top: -23px;
+    left: -60px;
+}
+
+.dublicates_top_left button {
+    width: 397px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    backdrop-filter: blur(100px);
+    color: #242321;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.dublicates_top_left h3 {
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    width: 398px;
+}
+
+.about_car {
+    display: flex;
+}
+
+.bg_fone {
+    margin-top: 52px;
+    background: url(../../assets/Ramilya/duplicates_car.png) no-repeat;
+    width: 588px;
+    height: 312px;
+    position: relative;
+}
+
+.black_fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.left_about_car {
+    margin-top: 48px;
+    margin-left: 35px;
+}
+
+.block_about_car {
+    display: flex;
+}
+
+.term {
+    margin-top: 21px;
+    margin-left: 8px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.five_min {
+    margin-top: 21px;
+    margin-left: 8px;
+    color: #0088CF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.verified {
+    margin-left: 2px;
+    margin-top: 13px;
+    position: relative;
+}
+
+.verified_top {
+    position: absolute;
+    right: 4px;
+    top: -3px;
+}
+
+.verified_text {
+    margin-top: 15px;
+    margin-left: 11px;
+    width: 344px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.pistol {
+    margin-left: 12px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.pistol_line {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pistol_text {
+    margin-top: 29px;
+    margin-left: 8px;
+    width: 362px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.about_car_btn {
+    margin-top: 45px;
+    margin-left: 11px;
+    width: 233px;
+    height: 56px;
+    border-radius: 5px;
+    background: #0088CF;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+
+.price_title {
+    margin-top: 83px;
+    margin-bottom: 49px;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.num_block {
+    display: flex;
+}
+
+
+.num_left_bg {
+    position: relative;
+    width: 360px;
+    height: 145px;
+    border-radius: 5px;
+    background: #F5F5F9;
+}
+
+.num {
+    position: absolute;
+    left: 43px;
+    top: 47px;
+}
+
+.sht {
+    margin-top: 31px;
+    margin-left: 29px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.price {
+    margin-left: 29px;
+    color: #0088CF;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.num_right {
+    display: flex;
+    margin-left: 222px;
+}
+
+
+.num_down {
+    position: absolute;
+    left: 53px;
+    top: 57px;
+}
+
+.num_top {
+    position: absolute;
+    left: 39px;
+    top: 43px;
+}
+
+.production_title {
+    margin-top: 98px;
+    text-align: center;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.production_title span {
+    color: #0088CF;
+    text-align: center;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.vvod_num {
+    margin-top: 14px;
+    color: #242321;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.num_vvod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.order_num {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 117px;
+}
+
+.inp_order {
+    margin-left: 20px;
+    padding: 20px;
+    width: 290px;
+    height: 57px;
+    border-radius: 5px;
+    border: 1px solid #C9C9C9;
+    background: rgba(255, 255, 255, 0.62);
+}
+
+select {
+    margin-left: 18px;
+    padding: 20px;
+    width: 104px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #C9C9C9;
+    background: #FFF;
+}
+
+.btn_order {
+    margin-left: 16px;
+    width: 233px;
+    height: 56px;
+    border-radius: 5px;
+    background: #0088CF;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+
+.registration_title {
+    margin-bottom: 65px;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration_block {
+    position: relative;
+    width: 386px;
+    height: 124px;
+    border-radius: 5px;
+    background: #242321;
+}
+
+.passport_icon1 {
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+}
+
+.passport_icon2 {
+    position: absolute;
+    left: -20px;
+    bottom: 15px;
+}
+
+.registration_text1 {
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+    width: 208px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.registration_text2 {
+    position: absolute;
+    left: 120px;
+    bottom: 20px;
+    width: 278px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.passport_icon3 {
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+}
+
+.registration_text3 {
+    position: absolute;
+    left: 120px;
+    bottom: 20px;
+    width: 258px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.registration_info {
+    margin-bottom: 39px;
+    margin-top: 17px;
+    width: 384px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.important {
+    width: 1202px;
+    height: 92px;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+}
+
+.important_text {
+    margin-top: 18px;
+    margin-left: 53px;
+    width: 1083px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.important_text span {
+    color: #0088CF;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.licenses_title {
+    margin-top: 94px;
+    color: #242321;
+    text-align: center;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.licenses_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.licenses_card {
+    margin-top: 81px;
+    width: 265px;
+    height: 351px;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+}
+
+.licenses {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.licenses_middle_card {
+    margin-top: 50px;
+    width: 288px;
+    height: 381px;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+}
+
+.licenses_middle {
+    margin-top: 9px;
+    margin-left: 13px;
+}
+
+.licenses_down {
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.map {
+    display: flex;
+    margin-top: 13%;
+    margin-bottom: 80px;
+}
+
+.map_left {
+    width: 375px;
+    height: 581px;
+    border-radius: 5px;
+    background: #0088CF;
+}
+
+.map_marker_wp {
+    position: relative;
+}
+
+.map_marker {
+    position: absolute;
+    top: 43px;
+    right: 237px;
+}
+
+.address_title {
+    padding-top: 52px;
+    margin-left: 35px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    width: 365px;
+}
+
+.map_text1 {
+    margin-left: 40px;
+    width: 8px;
+    height: 65px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.map_text1 h2 {
+    margin-top: 37px;
+    margin-left: 23px;
+    width: 255px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.map_text2 {
+    margin-top: 24px;
+    margin-left: 66px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 248px;
+}
+
+.map_text3 {
+    margin-top: 25px;
+    margin-left: 66px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    width: 241px;
+}
+
+
+.connection {
+    margin-top: 94px;
+    background-color: #F5F5F9;
+}
+
+.connection_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connection_left {
+    width: 48%;
+}
+
+.connection_left h2 {
+    padding-top: 54px;
+    width: 464px;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h2 span {
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h3 {
+    padding-top: 29px;
+    font-family: Gilroy;
+    width: 364px;
+    color: #242321;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.connection_left h3 span {
+    color: #242321;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.connection_left h4 {
+    padding-top: 11px;
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+
+.connection_right {
+    width: 48%;
+    padding-top: 30px;
+}
+
+.connection_right input {
+    width: 100%;
+    height: 57px;
+    color: #242321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.connection_down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 61px;
+}
+
+.connection_down input {
+    width: 20px;
+    height: 20px;
+}
+
+.connection_down h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 38%;
+}
+
+.connection_down button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #242321;
+    width: 45%;
+}
+
+.connection_down button:hover {
+    color: #fff;
+    background: #0088CF;
+}

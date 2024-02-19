@@ -1,0 +1,239 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.catalog_no_mileage {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 62.5%;
+	padding: 119px 0 130px 0;
+	gap: 47px;
+}
+
+/* ==================== product card ================= */
+.product_card {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 62.5%;
+	padding: 0;
+	gap: 47px;
+}
+/* ==================================================== */
+
+.catalog_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* ==================== product card ================= */
+.no_display {
+	display: none;
+}
+/* ==================================================== */
+
+.catalog_title h2 {
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.catalog_title button {
+	width: 254px;
+	height: 56px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #0088cf;
+
+	color: #fff;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.8px;
+}
+
+.catalog_content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.card {
+	flex: 1 0 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.card_image {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.card_image img {
+	width: 386px;
+}
+
+.card_image_text {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.card_image_text h3 {
+	width: 148px;
+	height: 34px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: rgba(252, 236, 79, 0.77);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #242321;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 30px;
+}
+
+.card_img_block {
+	display: flex;
+	justify-content: space-between;
+	width: 93%;
+}
+
+.card_img_block div {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.card_soon {
+	width: 132px;
+	height: 34px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #0088cf;
+
+	color: #fff;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card_content {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 35px 37px 20px;
+}
+
+.card_mileage {
+	color: #0088cf;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+
+.card_title {
+	max-width: 310px;
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 30px;
+	margin-bottom: 4px;
+}
+
+.card_text {
+	color: #242321;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.card_info {
+	display: flex;
+	flex-direction: column;
+}
+
+.info_block {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.info_block_title {
+	color: #242321;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+}
+
+.info_block_price {
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+}
+
+.card_btn {
+	width: 386px;
+	height: 66px;
+	flex-shrink: 0;
+	border-radius: 0px 0px 5px 5px;
+	border: 1px solid #0088cf;
+	background: #fff;
+	color: #0088cf;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.9px;
+}
+
+.card_btn:hover {
+	width: 386px;
+	height: 66px;
+	flex-shrink: 0;
+	border-radius: 0px 0px 5px 5px;
+	background: #0088cf;
+	color: #fff;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.9px;
+}
+
+.card_btn_second {
+	width: 386px;
+	height: 66px;
+	flex-shrink: 0;
+	border-radius: 0px 0px 5px 5px;
+	background: #f5f5f9;
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.9px;
+}

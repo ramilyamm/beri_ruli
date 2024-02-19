@@ -1,0 +1,216 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.container {
+    max-width: 62.5%;
+    margin: 0 auto;
+}
+
+.ramson {
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+    padding: 35px;
+    margin-bottom: 70px;
+}
+
+.ramson h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+}
+
+.ramson h2 span {
+    color: #0088CF;
+
+}
+
+.in_ramson {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img_in {
+    width: 10%;
+}
+
+.h_in {
+    width: 19%;
+}
+
+.p_in {
+    width: 60%;
+}
+
+.in_ramson h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 110%;
+}
+
+.in_ramson p {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 90%;
+}
+
+.in_ramson p span {
+    font-weight: 700;
+    color: #0088CF;
+}
+
+/* ========================= */
+.properties h2 {
+    color: #242321;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    width: 65%;
+    margin-bottom: 35px;
+}
+
+.properties h2 span {
+    color: #0088CF;
+}
+
+.properties h3 {
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.properties h4 {
+    font-family: 'Gilroy-Light', sans-serif;
+    color: #242321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 65%;
+    margin-bottom: 35px;
+}
+
+.in_properties {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-bottom: 15px;
+}
+
+.in_properties div {
+    padding: 8px;
+}
+
+.in_properties p {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 90%;
+}
+
+.properties h5 {
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 20px 0;
+}
+
+/* ============================ */
+.tablis {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.tablisa,
+.n_even,
+.even {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tablisa div {
+    flex: 0 1 25%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #0088CF;
+    color: #fff;
+    border-left: 1px solid #E5E5E5;
+}
+
+.tablisa h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.n_even div {
+    flex: 0 1 25%;
+    background-color: #F5F5F9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.even div {
+    flex: 0 1 25%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #E5E5E5;
+}
+
+.tablis h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.n_even div p,
+.even div p {
+    width: 80%;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.even div {
+    flex: 0 1 25%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #E5E5E5;
+}

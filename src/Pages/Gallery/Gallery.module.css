@@ -1,0 +1,150 @@
+.gallery {
+	display: flex;
+	flex-direction: column;
+	width: 62.5%;
+	margin: 0 auto;
+}
+
+.headline {
+	color: #989898;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 26px 0 33px;
+}
+
+.headline span {
+	color: #989898;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration-line: underline;
+}
+
+.gallery_content {
+	display: flex;
+	flex-direction: column;
+	gap: 31px;
+}
+
+.content_block {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.block_first {
+	display: flex;
+	flex-direction: column;
+	gap: 39px;
+}
+
+.block_title {
+	color: var(--black, #333);
+	font-family: Gilroy;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.6px;
+}
+
+.block_item {
+	display: flex;
+	gap: 22px;
+}
+
+.video_btn {
+	width: 178px;
+	height: 58px;
+	flex-shrink: 0;
+	background: #fff;
+	color: #686868;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 1px solid #0088cf;
+}
+
+.video_btn:hover {
+	border-radius: 5px;
+	background: #0088cf;
+	color: #fff;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 45px;
+}
+
+.block_second {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+.block_second a {
+	color: #242321;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	text-decoration-line: underline;
+}
+
+.content_video {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 22px;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	width: 580px;
+	flex-shrink: 0;
+}
+
+.video {
+	width: 580px;
+	height: 256px;
+	flex-shrink: 0;
+	margin-bottom: 24px;
+}
+
+.card_block {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+}
+
+.card_title {
+	color: #000;
+	font-family: Gilroy;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+.card_text {
+	color: #0088cf;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

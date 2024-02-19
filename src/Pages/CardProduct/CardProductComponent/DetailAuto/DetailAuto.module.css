@@ -1,0 +1,308 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.detail_auto {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 62.5%;
+	gap: 24px;
+}
+
+.block_info {
+	display: flex;
+	flex-direction: column;
+	max-width: 578px;
+}
+
+.auto_options {
+	display: flex;
+	flex-direction: column;
+}
+
+.options_title {
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 45px;
+	margin-bottom: 3px;
+}
+
+.options_text {
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+}
+
+.price_title {
+	color: #0088cf;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.price_info,
+.other_options {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 27px;
+}
+
+.price_item,
+.other_options_item {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+}
+
+.price_item,
+.other_options_item p {
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.price_item,
+.other_options_item p span {
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 45px;
+}
+.nut_dropdown {
+	width: 578px;
+	height: 61px;
+	flex-shrink: 0;
+	background: #f5f5f9;
+	padding: 8px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	height: 237px;
+	margin-bottom: 40px;
+}
+
+.dropdown_list {
+	position: absolute;
+	width: 578px;
+	height: 36px;
+	flex-shrink: 0;
+	background: #fcfcfd;
+}
+
+.dropdown_list p:nth-child(even) {
+	color: #242321;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 37px;
+	background: #f5f5f9;
+	padding-left: 30px;
+}
+.dropdown_list p:nth-child(odd) {
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 37px;
+	background-color: #ffffff;
+	padding-left: 30px;
+}
+
+.swiper {
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.swiper_arrow {
+	width: 9px;
+	height: 9px;
+}
+
+.swiper_content {
+	margin: 20px 0 31px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.swiper button {
+	width: 602px;
+	height: 66px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	border: 1px solid #0088cf;
+	background: #0088cf;
+
+	color: #fff;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.9px;
+}
+
+.auto_conditions {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.condition_title {
+	color: #0088cf;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 45px;
+	margin-bottom: 25px;
+}
+
+.condition_card {
+	min-width: 578px;
+	height: 248px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	border: 1px solid #0088cf;
+	background: #f5f5f9;
+	margin-bottom: 21px;
+	padding: 13px 23px 28px 22px;
+}
+
+.card_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.content_title {
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.content_wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.content_block {
+	display: flex;
+	flex-direction: column;
+}
+
+.content_block p {
+	color: #242321;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+}
+
+.content_block p span {
+	color: #0088cf;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 45px;
+}
+
+.card_text {
+	display: flex;
+	flex-direction: column;
+	max-width: 265px;
+}
+
+.card_text p {
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+
+.long_text {
+	margin-top: 45px;
+}
+
+.content_block_long_text {
+	margin-top: 17px;
+}
+
+.contact_info {
+	width: 100%;
+	position: relative;
+	margin-bottom: 83px;
+}
+
+.image_text {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img_quest_top {
+	position: absolute;
+	top: 10%;
+	right: 5%;
+}
+
+.img_quest_middle {
+	position: absolute;
+	right: 20%;
+	top: 5%;
+}
+
+.img_quest_bottom {
+	position: absolute;
+	right: 20%;
+	top: 30%;
+}
+
+.image_text {
+	padding: 33px 155px 42px 39px;
+	gap: 12px;
+}
+
+.image_question {
+	color: #fff;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 35px;
+}
+
+.image_number {
+	color: #fff;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 35px;
+}

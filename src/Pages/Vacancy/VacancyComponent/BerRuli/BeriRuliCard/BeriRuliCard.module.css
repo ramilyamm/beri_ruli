@@ -1,0 +1,93 @@
+.card {
+	flex: 1 0 30%;
+	width: 386px;
+	height: 237px;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	border: 1px solid #0088cf;
+	background: #fff;
+}
+
+.location {
+	display: flex;
+	gap: 5px;
+}
+
+.loact_image {
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+}
+
+.locat_name {
+	color: #242321;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+	margin-bottom: 19px;
+}
+
+.position {
+	color: #242321;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.36px;
+	margin-bottom: 13px;
+}
+
+.salary {
+	color: #242321;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -0.36px;
+	margin-bottom: 23px;
+}
+
+.card_btn {
+	width: 240px;
+	height: 45px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #0088cf;
+
+	color: #fff;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	margin-bottom: 32px;
+}
+
+.card:hover p {
+	color: #fff;
+}
+
+.card:hover .loact_image {
+	color: #fff;
+}
+
+.card:hover .card_btn {
+	border-radius: 5px;
+	background: #fff;
+	color: #0088cf;
+}
+
+.card:hover {
+	border-radius: 5px;
+	background: #0088cf;
+}

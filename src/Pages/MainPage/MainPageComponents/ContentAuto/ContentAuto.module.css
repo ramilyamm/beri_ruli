@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.content_auto {
+	width: 100%;
+	min-height: 915px;
+	display: flex;
+	flex-direction: column;
+	padding: 105px 0 96px 0;
+	gap: 93px;
+}
+
+.rent {
+	display: flex;
+	align-self: flex-end;
+	width: 81.2%;
+}
+
+.rent_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.rent_title {
+	min-width: 743px;
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 42px;
+	font-style: normal;
+	line-height: 52px;
+	margin-bottom: 19px;
+}
+
+.rent_title span {
+	color: #0088cf;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 42px;
+	font-style: normal;
+	line-height: 52px;
+}
+
+.rent_text {
+	min-width: 493px;
+	color: #989898;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	margin-bottom: 73px;
+}
+
+.rent_btn {
+	width: 308px;
+	height: 64px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #0088cf;
+	color: #fff;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0.9px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rent_image {
+	position: relative;
+	min-width: 790px;
+}
+
+.menu_car {
+	position: absolute;
+	top: 0;
+	left: -30%;
+	z-index: 1;
+}
+
+.rec_blue {
+	position: absolute;
+	top: -70%;
+	right: 0;
+	z-index: -1;
+}
+
+.rec_grey {
+	position: absolute;
+	top: -75%;
+	right: 0;
+	z-index: 0;
+}
+
+.no_credit {
+	width: 62.5%;
+	margin: 0 auto;
+	min-height: 335px;
+	display: flex;
+	flex-direction: column;
+	gap: 34px;
+}
+
+.no_credit_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.no_credit_title {
+	color: #242321;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 65px;
+}
+
+.no_credit_text {
+	max-width: 677px;
+	color: #242321;
+	font-family: 'Gilroy-Medium', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 28px;
+}
+
+.no_credit_card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card_item {
+	width: 386px;
+	height: 181px;
+	flex-shrink: 0;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.card_title {
+	color: #242321;
+	text-align: center;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 36px;
+}
+
+.card_text {
+	width: 324px;
+	color: #242321;
+	text-align: center;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.card_item:hover {
+	border-radius: 5px;
+	background: #0088cf;
+}
+
+.card_item:hover .card_title {
+	color: #fff;
+	text-align: center;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 36px;
+}
+
+.card_item:hover .card_text {
+	color: #fff;
+	text-align: center;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}

@@ -1,0 +1,440 @@
+.container {
+    max-width: 62.5%;
+    margin: 0 auto;
+}
+
+.title_team span {
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.title_team {
+    margin: 26px 0 30px;
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.team_block {
+    color: var(--black, #333);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+
+.team_btns_top {
+    margin-top: 41px;
+}
+
+.kmb_btn {
+    margin-right: 19px;
+    width: 239px;
+    height: 58px;
+    border-radius: 5px;
+    background: #0088CF;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.krasnodar_btn {
+    margin-right: 20px;
+    width: 239px;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background-color: #fff;
+    color: #686868;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.konst_sect {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_employee {
+    margin-top: 71px;
+    color: #242321;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.konstantin {
+    margin-top: 103px;
+}
+
+.about_konst {
+    margin-top: 298px;
+}
+
+.about_konst h2 {
+    color: #242321;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.about_konst h3 {
+    margin-top: 14px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+}
+
+.btn_konst {
+    margin-top: 33px;
+    width: 277px;
+    height: 84px;
+    border-radius: 5px;
+    background: #0088CF;
+}
+
+.btn_konst h4 {
+    padding-top: 18px;
+    margin-left: 29px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+
+}
+
+.choise_infos {
+    margin-top: 9px;
+    width: 416px;
+    height: 503px;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #F5F5F9;
+}
+
+.choise_infos h1 {
+    margin-top: 28px;
+    margin-left: 58px;
+    width: 309px;
+    color: #242321;
+    font-size: 20px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+}
+
+.choise_infos h2 {
+    padding-bottom: 55px;
+    margin: 14px 60px;
+    width: 300px;
+    height: 37px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+}
+
+.choise_info_block {
+    display: flex;
+    height: 150px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 19px;
+}
+
+.choise_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 130px;
+}
+
+.choise_middle input {
+    width: 30px;
+    height: 30px;
+}
+
+.choises_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 330px;
+    height: 130px;
+}
+
+.choises_middle h4 {
+    margin-left: 19px;
+    color: #0088CF;
+    font-size: 20px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+}
+
+.choises_middle h3 {
+    margin-left: 19px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+.btn_choise {
+    margin-left: 60px;
+    width: 293px;
+    height: 59px;
+    border-radius: 5px;
+    background: #0088CF;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.32px;
+}
+
+.choise_infos h5 {
+    margin-top: 8px;
+    margin-left: 64px;
+    color: #0088CF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+.team_video_title {
+    color: #000;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.team_video_sect {
+    margin-top: 108px;
+}
+
+.video_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_video_title span {
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.team_video_text {
+    margin-top: 20px;
+    width: 445px;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.video_right {
+    background: url(../../assets/Ramilya/video_block.png);
+    width: 602px;
+    height: 256px;
+}
+
+
+.icons {
+    position: relative;
+}
+
+.video_icon {
+    position: relative;
+    left: 44%;
+    bottom: 170px;
+}
+
+.icon_top {
+    position: relative;
+    bottom: 145px;
+    left: 37.2%;
+}
+
+.managers_sect {
+    margin-top: 91px;
+}
+
+.managers_title {
+    margin-bottom: 84px;
+    color: #242321;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.managers_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.managers_name {
+    margin-top: 35px;
+    color: #242321;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.48px;
+}
+
+.managers_text {
+    margin-top: 6px;
+    color: #242321;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+}
+
+.managers_work {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    width: 290px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+}
+
+.managers_info {
+    margin-bottom: 15px;
+    width: 285px;
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.managers_info span {
+    color: #0088CF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.team_bottom {
+    margin-top: 107px;
+}
+
+.team_bottom_block {
+    width: 1203px;
+    height: 175px;
+    background: #0088CF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team_bottom_right {
+    padding-top: 34px;
+    margin-left: 42px;
+}
+
+.team_bottom_right h1 {
+    color: #FFF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.team_bottom_right p {
+    margin-top: 16px;
+    width: 738px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.team_bottom_left {
+    display: flex;
+    margin-top: 46px;
+    margin-right: 94px;
+    width: 230px;
+    height: 59px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.team_bottom_left h2 {
+    margin-top: 15px;
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+}
+
+.tel {
+    margin-top: 17px;
+    margin-left: 42px;
+    margin-right: 12px;
+    width: 28px;
+    height: 28px;
+}
+
+.team_bottom_down {
+    margin-top: 9px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}

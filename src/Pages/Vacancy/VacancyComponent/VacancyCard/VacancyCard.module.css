@@ -1,0 +1,36 @@
+.vacancy_card {
+	width: 62.5%;
+	margin: 0 auto 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cards {
+	width: 386px;
+	height: 159px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #242321;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards img {
+	position: absolute;
+	top: 0;
+	left: -5%;
+}
+
+.card_title {
+	color: #fff;
+	text-align: center;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	width: 310px;
+}

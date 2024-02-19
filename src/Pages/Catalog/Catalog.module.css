@@ -1,0 +1,726 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
+.container {
+    max-width: 62.5%;
+    margin: 0 auto;
+}
+
+.title_catalog {
+    margin-top: 26px;
+    margin-bottom: 25px;
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.title_catalog span {
+    color: #989898;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.bg_fone {
+    background: url('../../assets/Ramilya/catalog_top.png');
+    height: 18vh;
+    position: relative;
+}
+
+.black_fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_text {
+    margin: 68px 42px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.right_block {
+    margin: 35px 56px;
+    position: relative;
+    display: flex;
+    width: 473px;
+    height: 105px;
+    border-radius: 3px;
+    background: #0088CF;
+    backdrop-filter: blur(100px);
+}
+
+.car_bottom {
+    margin: 20px 30px;
+}
+
+.car {
+    margin-left: 30px;
+    position: absolute;
+    left: -20px;
+    bottom: 20px;
+}
+
+
+.right_block h2 {
+    margin: 36px 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.title {
+    margin: 33px 0 26px;
+    color: #242321;
+    font-size: 20px;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select_left {
+    padding: 10px;
+    width: 214px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.62);
+}
+
+.select_right {
+    padding: 11px;
+    width: 108px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+}
+
+option {
+    width: 214px;
+    height: 99px;
+}
+
+.mechanics {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0088CF;
+}
+
+.auto_and_year {
+    margin-top: 15px;
+    color: #242321;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.switch {
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+.switch_inp {
+    position: absolute;
+    left: -17px;
+    top: 17px;
+    width: 36px;
+    height: 18px;
+    -webkit-appearance: none;
+    outline: none;
+    background-color: #c6c6c6;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.switch_inp:checked {
+    background-color: #0088CF;
+}
+
+
+.switch_inp::before {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #0088CF;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.switch_inp:checked::before {
+    left: 20px;
+}
+
+.filter button {
+    width: 171px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    background: #0088CF;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.triple_card {
+    margin-top: 45px;
+}
+
+.triple_card2 {
+    margin-bottom: 85px;
+}
+
+.in_triple_card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.in_tri_card img {
+    width: 100%;
+}
+
+.in_tri_card {
+    flex: 0 0 32%;
+}
+
+.in_card_tri {
+    padding: 10px;
+}
+
+.in_card_tri h2 {
+    color: #0088CF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.in_card_tri h3 {
+    color: #242321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    width: 85%;
+}
+
+.in_card_tri h4 {
+    color: #242321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.in_in_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.in_in_card h5 {
+    color: #242321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 45%;
+}
+
+.in_in_card p {
+    color: #242321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    width: 35%;
+}
+
+.in_down_btn {
+    width: 100%;
+    height: 65px;
+    background-color: #F5F5F9;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.in_down_btn:hover {
+    background-color: #0088CF;
+    color: #fff;
+}
+
+.title_registration {
+    color: #242321;
+    font-size: 30px;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration_block {
+    margin-top: 85px;
+    background: #242321;
+    width: 31%;
+    height: 124px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.registration_block h2 {
+    margin-top: 48px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.passport_icon {
+    position: relative;
+    left: -55px;
+    top: -40px;
+}
+
+.passport_icon3 {
+    position: relative;
+    left: -45px;
+    top: -40px;
+}
+
+.passport_icon2 {
+    position: relative;
+    left: -30px;
+    top: -20px;
+}
+
+
+.request {
+    margin-top: 121px;
+    margin-bottom: 120px;
+    background-color: #F5F5F9;
+    border-radius: 5px;
+    padding: 85px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.request_left {
+    width: 48%;
+}
+
+.request_left h2 {
+    color: #242321;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 65px;
+}
+
+.request_left h2 span {
+    color: #0088CF;
+}
+
+.request_left h3 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 80%;
+    margin-bottom: 52px;
+
+}
+
+.request_left h4 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 80%;
+}
+
+.request_rigth {
+    width: 48%;
+    padding-top: 30px;
+}
+
+.request_rigth input {
+    width: 100%;
+    height: 57px;
+    color: #242321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.request_down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.request_down input {
+    width: 20px;
+    height: 20px;
+}
+
+.request_down h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 38%;
+}
+
+.request_down button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #242321;
+    width: 45%;
+}
+
+.request_down button:hover {
+    color: #fff;
+    background: #0088CF;
+}
+
+
+.get_bg {
+    background-color: #F5F5F9;
+    padding: 70px 0 95px;
+    margin-bottom: 80px;
+}
+
+.get_bg_in h2 {
+    color: #242321;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    width: 42%;
+    margin-bottom: 15px;
+}
+
+.get_bg_in h2 span {
+    color: #0088CF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.get_bg_in h4 {
+    color: #242321;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 200% */
+}
+
+.middle_bg_in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_middle_bg_in {
+    flex: 0 0 20%;
+}
+
+.card_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_card div {
+    border: 4px solid #0088CF26;
+    width: 58px;
+    height: 58px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card_middle_bg_in h2 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 3px;
+}
+
+.in_img_h2 {
+    width: 15px;
+    height: 17px;
+}
+
+.img_in_h2 {
+    width: 170px;
+    height: 1px;
+    margin: 0 10px 0 20px;
+}
+
+.card_middle_bg_in p {
+    color: #242321;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 25px;
+    width: 97%;
+
+}
+
+.card_middle_bg_in p span {
+    color: #242321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card_middle_bg_in h3 {
+    color: #242321;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-weight: 900;
+    line-height: 40px;
+    margin-top: 25px;
+    margin-bottom: 38px;
+}
+
+.get_bg_in button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #242321;
+    width: 20%;
+    height: 56px;
+}
+
+.get_bg_in button:hover {
+    color: #fff;
+    background: #0088CF;
+}
+
+
+
+.then_title {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.then_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.then_block h3 {
+    width: 318px;
+    font-family: 'Gilroy';
+    color: #242321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.then_block h3 span {
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #0088CF;
+}
+
+.arrow_and_line {
+    margin-top: 16px;
+}
+
+.arrow_line {
+    margin-top: -5px;
+}
+
+.connection {
+    margin-top: 94px;
+    background-color: #F5F5F9;
+}
+
+.connection_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connection_left {
+    width: 48%;
+}
+
+.connection_left h2 {
+    padding-top: 54px;
+    width: 464px;
+    color: #242321;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h2 span {
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.connection_left h3 {
+    padding-top: 29px;
+    font-family: Gilroy;
+    width: 364px;
+    color: #242321;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.connection_left h3 span {
+    color: #242321;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.connection_left h4 {
+    padding-top: 11px;
+    color: #0088CF;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+
+.connection_right {
+    width: 48%;
+    padding-top: 30px;
+}
+
+.connection_right input {
+    width: 100%;
+    height: 57px;
+    color: #242321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.connection_down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 61px;
+}
+
+.connection_down input {
+    width: 20px;
+    height: 20px;
+}
+
+.connection_down h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    width: 38%;
+}
+
+.connection_down button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #242321;
+    width: 45%;
+}
+
+.connection_down button:hover {
+    color: #fff;
+    background: #0088CF;
+}

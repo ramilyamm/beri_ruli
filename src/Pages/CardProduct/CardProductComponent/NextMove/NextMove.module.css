@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.next_move {
+	width: 100%;
+	position: relative;
+}
+
+.quest_image_first {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	z-index: -1;
+}
+
+.quest_image_second {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	z-index: -1;
+}
+
+.wrapper {
+	width: 62.5%;
+	margin: 0 auto;
+	padding: 84px 0 91px;
+}
+
+.wrapper_title {
+	color: #000;
+	font-family: 'Gilroy-Heavy', sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	line-height: 45px;
+	margin-bottom: 53px;
+}
+
+.wrapper_content {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+.content_block {
+	flex: 1 0 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.line {
+	width: 76px;
+	height: 1px;
+	margin-right: 13px;
+	margin-top: 13px;
+}
+
+.form_arrow {
+	width: 12px;
+	height: 7px;
+	margin-right: 34px;
+	margin-top: 10px;
+}
+
+.content_text {
+	color: #242321;
+	font-family: 'Gilroy-Regular', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+}
+
+.content_text span {
+	color: #0088cf;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 30px;
+}

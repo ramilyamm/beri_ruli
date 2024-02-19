@@ -1,0 +1,12 @@
+.up {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    top: 850px;
+    right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #0088CF;
+}

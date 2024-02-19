@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.container {
+	width: 62.5%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	padding: 70px 0 40px 0;
+}
+
+.block_info {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.detail_info {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.detail_info_block p {
+	color: #242321;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.detail_info_block p a {
+	color: #0088cf;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration-line: underline;
+}
+
+.detail_info_number a {
+	width: 250px;
+	height: 45px;
+	color: #242321;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 45px;
+}
+
+.menu_info {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu_main {
+	color: #242321;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.menu_item {
+	color: #242321;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.active {
+	color: #0088cf;
+}
+
+.block_link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.network_links {
+	display: flex;
+	max-width: 250px;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.network_links a {
+	width: 55px;
+	height: 55px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #f5f5f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_link h3 a {
+	max-width: 219px;
+	color: #242321;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration-line: underline;
+}
+
+.company_developers {
+	width: 100%;
+	height: 50px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #242321;
+}
+
+.company_container {
+	width: 62.5%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company_container p {
+	color: #fcec4f;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.company_container p a {
+	color: #fcec4f;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration-line: underline;
+}

@@ -1,0 +1,46 @@
+.vacancy_video {
+	width: 62.5%;
+	margin: 0 auto 38px;
+	display: flex;
+	justify-content: space-between;
+	gap: 114px;
+}
+
+.video {
+	width: 602px;
+	height: 252px;
+}
+
+.video_text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.video_title {
+	color: #000;
+	font-family: Gilroy;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 40px;
+}
+
+.video_title span {
+	color: #0088cf;
+	font-family: Gilroy;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 40px;
+}
+
+.video_text p {
+	color: #000;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+	max-width: 485px;
+}
